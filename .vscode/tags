@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../blog/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../mysite/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+BASE_DIR	../mysite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../mysite/settings.py	/^DATABASES = {$/;"	kind:variable	line:78
+DEBUG	../mysite/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../mysite/settings.py	/^INSTALLED_APPS = ($/;"	kind:variable	line:33
+LANGUAGE_CODE	../mysite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:89
+MIDDLEWARE_CLASSES	../mysite/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	kind:variable	line:43
+Migration	../blog/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:9
+Post	../blog/admin.py	/^from .models import Post$/;"	kind:namespace	line:2
+Post	../blog/models.py	/^class Post(models.Model):$/;"	kind:class	line:6
+ROOT_URLCONF	../mysite/settings.py	/^ROOT_URLCONF = 'mysite.urls'$/;"	kind:variable	line:54
+SECRET_KEY	../mysite/settings.py	/^SECRET_KEY = 'ds-mfr(3dvk2_hnre%88u^t4w&(0qjpko&r&@b152=y0=t8y6v'$/;"	kind:variable	line:23
+STATIC_ROOT	../mysite/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'public', 'static')$/;"	kind:variable	line:104
+STATIC_URL	../mysite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:103
+TEMPLATES	../mysite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:56
+TIME_ZONE	../mysite/settings.py	/^TIME_ZONE = 'Europe\/Warsaw'$/;"	kind:variable	line:91
+TestCase	../blog/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../mysite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:93
+USE_L10N	../mysite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:95
+USE_TZ	../mysite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:97
+WSGI_APPLICATION	../mysite/settings.py	/^WSGI_APPLICATION = 'mysite.wsgi.application'$/;"	kind:variable	line:72
+__init__.py	../blog/__init__.py	1;"	kind:file	line:1
+__init__.py	../blog/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../mysite/__init__.py	1;"	kind:file	line:1
+__str__	../blog/models.py	/^    def __str__(self):$/;"	kind:member	line:19
+admin	../blog/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../mysite/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:2
+admin.py	../blog/admin.py	1;"	kind:file	line:1
+application	../mysite/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+author	../blog/models.py	/^    author = models.ForeignKey('auth.User')$/;"	kind:variable	line:7
+created_date	../blog/models.py	/^    created_date = models.DateTimeField($/;"	kind:variable	line:10
+default	../blog/models.py	/^            default=timezone.now)$/;"	kind:variable	line:11
+dependencies	../blog/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:11
+django	../blog/migrations/0001_initial.py	/^import django.utils.timezone$/;"	kind:namespace	line:5
+django-admin.py	../myvenv/bin/django-admin.py	1;"	kind:file	line:1
+execute_from_command_line	../manage.py	/^    from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+fields	../blog/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+get_wsgi_application	../mysite/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	../mysite/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:1
+manage.py	../manage.py	1;"	kind:file	line:1
+management	../myvenv/bin/django-admin.py	/^from django.core import management$/;"	kind:namespace	line:2
+migrations	../blog/migrations/0001_initial.py	/^from django.db import models, migrations$/;"	kind:namespace	line:4
+models	../blog/migrations/0001_initial.py	/^from django.db import models, migrations$/;"	kind:namespace	line:4
+models	../blog/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../blog/models.py	1;"	kind:file	line:1
+name	../blog/migrations/0001_initial.py	/^            name='Post',$/;"	kind:variable	line:17
+operations	../blog/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../mysite/settings.py	/^import os$/;"	kind:namespace	line:14
+os	../mysite/wsgi.py	/^import os$/;"	kind:namespace	line:10
+publish	../blog/models.py	/^    def publish(self):$/;"	kind:member	line:15
+published_date	../blog/models.py	/^    published_date = models.DateTimeField($/;"	kind:variable	line:12
+render	../blog/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings	../blog/migrations/0001_initial.py	/^from django.conf import settings$/;"	kind:namespace	line:6
+settings.py	../mysite/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../blog/tests.py	1;"	kind:file	line:1
+text	../blog/models.py	/^    text = models.TextField()$/;"	kind:variable	line:9
+timezone	../blog/migrations/0001_initial.py	/^import django.utils.timezone$/;"	kind:namespace	line:5
+timezone	../blog/models.py	/^from django.utils import timezone$/;"	kind:namespace	line:3
+title	../blog/models.py	/^    title = models.CharField(max_length=200)$/;"	kind:variable	line:8
+unicode_literals	../blog/migrations/0001_initial.py	/^from __future__ import unicode_literals$/;"	kind:namespace	line:2
+url	../mysite/urls.py	/^from django.conf.urls import include, url$/;"	kind:namespace	line:1
+urlpatterns	../mysite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urls.py	../mysite/urls.py	1;"	kind:file	line:1
+utils	../blog/migrations/0001_initial.py	/^import django.utils.timezone$/;"	kind:namespace	line:5
+views.py	../blog/views.py	1;"	kind:file	line:1
+wsgi.py	../mysite/wsgi.py	1;"	kind:file	line:1
