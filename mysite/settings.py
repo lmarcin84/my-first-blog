@@ -25,7 +25,7 @@ SECRET_KEY = 'ds-mfr(3dvk2_hnre%88u^t4w&(0qjpko&r&@b152=y0=t8y6v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ALLOWED_HOSTS = ['lmarcin84.pythonanywhere.com']
 
 
 # Application definition
